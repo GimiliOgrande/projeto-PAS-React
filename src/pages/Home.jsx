@@ -13,6 +13,7 @@ import nmrih from '../assets/NMRIH.png';
 import overcooked from '../assets/overcooked.png';
 import undertale from '../assets/undertale.png';
 import white from '../assets/menu_white_36dp.png'
+import snakeImg from '../assets/snake.jpg'
 
 
 function Home() {
@@ -35,9 +36,9 @@ function Home() {
     <div className="home-container">
         <div className='nav-list'>
           <ul>
-            <li className='nav' id='DST'>
-              <Link to={'/game/DST'}>
-                <img src={Starve} alt="Don't Starve Together" className="navbar-img" />
+            <li className='nav' id='cofbra'>
+              <Link to={'/cobrinha'}>
+                <img src={snakeImg} alt="'Jogo da cobrinha" className="navbar-img" />
               </Link>
             </li>
             <li className='nav' id='HK'>
@@ -155,8 +156,9 @@ function Home() {
           </div>
           
           <div className='game-description'>
-            <h1>A comadre</h1>
-            <p>*FNKSDALJFKLDSJFKLSADJFKL</p>
+            <h1>A comadre (EM BREVE)</h1>
+            <p>Ao voltar de uma caça por diversão com amigos, vocês decidem cortar caminho pela floresta sem a permissão da comadre fulosinha, afinal de contas e só uma lenda urbana, certo?  Agora, você se encontra presos em um pesadelo vivo, e precisa escapar de uma floresta que parece se transformar a cada passo. A cada som, a cada sombra, a comadre pode estar se aproximando...
+            O objetivo e simples : Sobreviver e Escapar, evite armadilhas naturais e fuja da perseguição implacável para ter uma chance de sair vivo. Mas cuidado: nem todos conseguirão ver a luz do dia.</p>
             </div>
         </div>
     </div>

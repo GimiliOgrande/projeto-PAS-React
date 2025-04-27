@@ -12,7 +12,7 @@ function Game() {
         return <div>Jogo não encontrado</div>;
     }
 
-    const { nome, descricao, imagem, desenvolvedor, ano } = jogo;
+    const { nome, descricao, imagem, desenvolvedor, ano, link } = jogo;
  
     return(
         <div className='game-container'>
@@ -29,11 +29,14 @@ function Game() {
 
                 <div className='image-description'>
                     <img src={imagem} alt={nome} />
-                    <p>Descrição: {descricao}</p>
+                        <div className='desc-game'><p className='desc-text'>Descrição: {descricao}</p>
+                            <p>Desenvolvedor: {desenvolvedor}</p>
+                            <p>Ano: {ano}</p>
+                            <p>Link para download: {link}</p>
+                        </div>
                 </div>
                 
-                <p>Desenvolvedor: {desenvolvedor}</p>
-                <p>Ano: {ano}</p>
+                
             </div>
         </div>
     )

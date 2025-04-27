@@ -27,17 +27,19 @@
     min-height: 100vh;
 }
 
+.nav-bar{
+    display: block;
+    background-color: #efeeee;
+    min-height: 15vh;
+}
+
 .game-header{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 25px;
 }
 
-.nav-bar{
-    display: block;
-    background-color: #efeeee;
-    height: 15vh;
-}
+
 
 * {
     margin: 0;
@@ -88,6 +90,7 @@
     align-items: center;
     font-family: "Roboto", sans-serif;
     height: 65vh;
+    padding-bottom: 50px;
 }
 
 .main-container h1{
@@ -106,6 +109,22 @@
     height: 350px;
 }
 
+.desc-game{
+    width: 550px;
+    padding: 10px;
+    border-style:ridge;
+
+}
+
+.desc-game p{
+    margin-bottom: 10px;
+}
+
+.desc-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
 
 
 
