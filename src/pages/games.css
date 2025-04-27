@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    min-height: 100vh;
+}
+
+.game-header{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+}
+
+.nav-bar{
+    display: block;
+    background-color: #efeeee;
+    height: 15vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    min-height: 100vh;
+}
+
+.game-header{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+}
+
+.nav-bar{
+    display: block;
+    background-color: #efeeee;
+    height: 15vh;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    height: 65vh;
+}
+
+.main-container h1{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.image-description{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.image-description img{
+    height: 350px;
+}
+
+
+
+
+
+

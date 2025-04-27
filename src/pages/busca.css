@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+  }
+  
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.busca-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    min-height: 100vh;
+}
+
+.busca-header{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+}
+
+.busca-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.busca-main-container h1{
+    margin-bottom: 20px;
+
+}
+
+.busca-main-container ul{
+    list-style: none;
+}
+
+.busca-main-container img{
+    height: 300px;
+}
